@@ -81,7 +81,7 @@ function Watchlist() {
                 className="anime-card-modern glass"
               >
                 <div className="card-top">
-                  <img src={`/${img || 'images/placeholder.png'}`} alt={title} className="card-img" />
+                  <img src={img || 'images/placeholder.png'} alt={title} className="card-img" />
                 </div>
                 <div className="card-body">
                   <Link to={tab === 'anime' ? '/anime' : '/movies'} className="card-title-link">
